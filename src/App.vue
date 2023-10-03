@@ -40,7 +40,7 @@ export default {
           </h4>
           <br>
           <h4>
-            Feel free to check out my <a :href= "`${publicPath}dmitrijs_resume.pdf`" download class="font-weight-medium text-decoration-underline">resume</a> or some of my stuff below.
+            Feel free to check out my <a :href= "`/dmitrijs_resume.pdf`" download class="font-weight-medium text-decoration-underline">resume</a> or some of my stuff below.
             Or you can reach me elsewhere using the links below.
           </h4>
         </div>
@@ -70,7 +70,7 @@ export default {
             <h4>
               Created a weight-tracking web app that logs user's weights and provides a weighted average and trend chart for more acurate progress tracking.
             </h4>
-            <v-img :src="`${publicPath}quantify.jpeg`" />
+            <v-img :src="`/quantify.jpeg`" />
           </v-carousel-item>
           <v-carousel-item>
             <h2>
@@ -90,7 +90,7 @@ export default {
             <h4>
               CSE115 final project which visualizes the data uploaded by the city of Buffalo.
             </h4>
-            <v-img :src="`${publicPath}cse115.jpeg`" />
+            <v-img :src="`/cse115.jpeg`" />
           </v-carousel-item>
         </v-carousel>
       </v-col>
