@@ -40,7 +40,7 @@ export default {
           </h4>
           <br>
           <h4>
-            Feel free to check out my <a :href= "`dmitrijs_resume.pdf`" download class="font-weight-medium text-decoration-underline">resume</a> or some of my stuff below.
+            Feel free to check out my <a :href= "`/dima/dmitrijs_resume.pdf`" download class="font-weight-medium text-decoration-underline">resume</a> or some of my stuff below.
             Or you can reach me elsewhere using the links below.
           </h4>
         </div>
