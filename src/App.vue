@@ -36,7 +36,7 @@ export default {
           <v-divider class="border-opacity-100" />
           <br>
           <h4>
-            Hi! I am a Computer Science student with a focused interest on software engineering and data science. I am currently working on my Bachelors at the University of Buffalo.
+            Hi! I am a Computer Science student with a focused interest on software engineering and data science. I am currently working on my BS at the University of Buffalo.
           </h4>
           <br>
           <h4>
