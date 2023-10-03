@@ -70,7 +70,7 @@ export default {
             <h4>
               Created a weight-tracking web app that logs user's weights and provides a weighted average and trend chart for more acurate progress tracking.
             </h4>
-            <v-img :src="`/quantify.jpeg`" />
+            <v-img :src="`quantify.jpeg`" />
           </v-carousel-item>
           <v-carousel-item>
             <h2>
@@ -90,7 +90,7 @@ export default {
             <h4>
               CSE115 final project which visualizes the data uploaded by the city of Buffalo.
             </h4>
-            <v-img :src="`/cse115.jpeg`" />
+            <v-img :src="`cse115.jpeg`" />
           </v-carousel-item>
         </v-carousel>
       </v-col>
