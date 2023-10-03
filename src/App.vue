@@ -49,7 +49,7 @@ export default {
         <v-img
         :width="300"
         aspect-ratio="2/3"
-        :src="`${publicPath}dima.JPG`"
+        :src="`dima.JPG`"
         class="mt-4"
         ></v-img>
       </v-col>
