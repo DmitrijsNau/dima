@@ -28,7 +28,11 @@ export default {
 <template>
   <v-container>
     <v-row>
-      <v-col cols="6">
+      <v-col 
+      xs="6"
+      sm="6"
+      md="6"
+      lg="6">
         <div>
           <h1>
             Dima Naudzuns
@@ -36,7 +40,7 @@ export default {
           <v-divider class="border-opacity-100" />
           <br>
           <h4>
-            Hi! I am a Computer Science student with a focused interest on software engineering and data science. I am currently working on my BS at the University of Buffalo.
+            Hi! I am a Computer Science student with a focused interest on software engineering and data science. I am currently working on my BS at the University of Buffalo, as well as interning at Linde plc as a Full Stack Software Engineer.
           </h4>
           <br>
           <h4>
@@ -45,12 +49,17 @@ export default {
           </h4>
         </div>
       </v-col>
-      <v-col cols="6">
+      <v-col
+      xs="12" 
+      sm="6"
+      md="6"
+      lg="6"
+      >
         <v-img
         :width="300"
         aspect-ratio="2/3"
         :src="`dima.JPG`"
-        class="mt-4"
+        class="mt-4 d-flex justify-center"
         ></v-img>
       </v-col>
     </v-row>
@@ -63,6 +72,15 @@ export default {
         >
         <v-carousel-item>
             <h2>
+              LG&E Distribution Dashboard
+            </h2>
+            <h4>
+              Developed a web app which provides KPIs for the Linde distribution proccess for 350 US locations across 500k routes for 2M customer locations.
+            </h4>
+            <v-img :src="`dashboard.jpg`" class="mt-1" />
+          </v-carousel-item> 
+        <v-carousel-item>
+            <h2>
               <a href="https://devpost.com/software/quantify-6lxpzo" class="text-decoration-underline">
                 UB Hacking Fall 2022 - Quantify
               </a>
@@ -70,7 +88,7 @@ export default {
             <h4>
               Created a weight-tracking web app that logs user's weights and provides a weighted average and trend chart for more acurate progress tracking.
             </h4>
-            <v-img :src="`quantify.jpg`" />
+            <v-img :src="`quantify.jpg`" class="mt-1"/>
           </v-carousel-item>
           <v-carousel-item>
             <h2>
@@ -79,7 +97,7 @@ export default {
             <h4>
               Implemented <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" class="text-decoration-underline">Conway's Game of Life</a> to display n generations given a starting state.
             </h4>
-            <v-img src="https://i.stack.imgur.com/8U2hN.gif" />
+            <v-img src="https://i.stack.imgur.com/8U2hN.gif" class="mt-1" />
           </v-carousel-item>
           <v-carousel-item>
             <h2>
@@ -90,14 +108,14 @@ export default {
             <h4>
               CSE115 final project which visualizes the data uploaded by the city of Buffalo.
             </h4>
-            <v-img :src="`cse115.jpg`" />
+            <v-img :src="`cse115.jpg`" class="mt-1" />
           </v-carousel-item>
         </v-carousel>
       </v-col>
     </v-row>
     <v-row>
       <v-col>
-        <div>
+        <div class="d-flex justify-center">
           <v-breadcrumbs :items="items" />
         </div>
       </v-col>
