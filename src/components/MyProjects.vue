@@ -6,20 +6,8 @@
       delimiter-icon="mdi-square"
     >
       <v-carousel-item>
-        <h2>LG&E Distribution Dashboard</h2>
-        <h4>
-          Developed a web app which provides KPIs for the Linde distribution
-          proccess for 350 US locations across 500k routes for 2M customer
-          locations.
-        </h4>
-        <v-img :src="`dashboard.jpg`" class="mt-1" />
-      </v-carousel-item>
-      <v-carousel-item>
         <h2>Skating Environment Reinforcement Learning</h2>
-        <h4>
-          Implemented a SARSA, Q-Learning, and Double Q-Learning Agent to solve
-          a 4x4 grid world environment to achieve maximum points.
-        </h4>
+        <h4></h4>
         <v-img :src="`skating.jpg`" class="mt-1" />
       </v-carousel-item>
       <v-carousel-item>
